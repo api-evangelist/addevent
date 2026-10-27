@@ -64,5 +64,32 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AddEvent is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://addevent.com/
+AddEvent provides calendar integration tools that let websites and apps add events to users’ calendars via simple buttons, dynamic links, and subscription calendars. Their platform includes RSVP forms, analytics, and marketing features to reduce no‑shows and improve event attendance. Developers can access a RESTful Calendar Events API, documentation, and SDKs to embed scheduling functionality across multiple platforms.
+
+**Areas:** Calendar · Integration · Marketing · API · SaaS · Events
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.addevent.com/)
+- [Documentation](https://www.addevent.com/c/documentation)
+- [Getting started](https://docs.addevent.com/reference/getting-started)
+- [API reference](https://www.addevent.com/c/documentation/calendar-events-api)
+- [Pricing](https://www.addevent.com/c/plans-and-pricing)
+- [Sign up](https://dashboard.addevent.com/signup?source=homepage&position=navigation&btn=signup)
+- [Support](https://help.addevent.com)
+- [Changelog](https://help.addevent.com/changelog)
+- [Blog](https://www.addevent.com/blog)
+- [Security](https://www.addevent.com:443/c/legal/security)
+- [Compliance](https://www.addevent.com:443/c/legal/security)
+- [Terms of service](https://www.addevent.com/c/legal/terms)
+- [Privacy policy](https://www.addevent.com/c/legal/privacy)
+- [GitHub](https://github.com/AddEventinc)
+- [Status](https://addevent.statuspage.io/)
+
+**APIs profiled:** 6
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/addevent/](https://apis.io/providers/addevent/).
