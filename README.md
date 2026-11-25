@@ -66,7 +66,74 @@
 
 AddEvent provides calendar integration tools that let websites and apps add events to users’ calendars via simple buttons, dynamic links, and subscription calendars. Their platform includes RSVP forms, analytics, and marketing features to reduce no‑shows and improve event attendance. Developers can access a RESTful Calendar Events API, documentation, and SDKs to embed scheduling functionality across multiple platforms.
 
-**Areas:** Calendar · Integration · Marketing · API · SaaS · Events
+**Areas:** Calendar · Integration · Marketing · Software-as-a-Service · Event
+
+## AddEvent on APIs.io
+
+Everything profiled for AddEvent is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/addevent/](https://apis.io/providers/addevent/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [AddEvent Calendar subscribers API](https://apis.io/apis/addevent/addevent-calendar-subscribers-api/) — The Calendar subscribers API from AddEvent — 2 operation(s) for calendar subscribers.
+- [AddEvent Calendars API](https://apis.io/apis/addevent/addevent-calendars-api/) — The Calendars API from AddEvent — 2 operation(s) for calendars.
+- [AddEvent Events API](https://apis.io/apis/addevent/addevent-events-api/) — The Events API from AddEvent — 2 operation(s) for events.
+- [AddEvent RSVP attendees API](https://apis.io/apis/addevent/addevent-rsvp-attendees-api/) — The RSVP attendees API from AddEvent — 3 operation(s) for rsvp attendees.
+- [AddEvent Templates API](https://apis.io/apis/addevent/addevent-templates-api/) — The Templates API from AddEvent — 3 operation(s) for templates.
+- [AddEvent Timezones API](https://apis.io/apis/addevent/addevent-timezones-api/) — The Timezones API from AddEvent — 1 operation(s) for timezones.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [addevent-mcp.yml](https://apis.io/servers/addevent/addevent-mcp-yml/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [AddEvent Agentic Access](https://apis.io/agentic-access/addevent/addevent-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Addevent Context](https://apis.io/jsonld/addevent/addevent-context/)
+
+#### Overlays (6)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [AddEvent Calendar Subscribers Api Phrasing Overlay](https://apis.io/overlays/addevent/addevent-calendar-subscribers-api-phrasing-overlay/)
+- [AddEvent Calendars Api Phrasing Overlay](https://apis.io/overlays/addevent/addevent-calendars-api-phrasing-overlay/)
+- [AddEvent Events Api Phrasing Overlay](https://apis.io/overlays/addevent/addevent-events-api-phrasing-overlay/)
+- [AddEvent Rsvp Attendees Api Phrasing Overlay](https://apis.io/overlays/addevent/addevent-rsvp-attendees-api-phrasing-overlay/)
+- [AddEvent Templates Api Phrasing Overlay](https://apis.io/overlays/addevent/addevent-templates-api-phrasing-overlay/)
+- [AddEvent Timezones Api Phrasing Overlay](https://apis.io/overlays/addevent/addevent-timezones-api-phrasing-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AddEvent API Rules](https://apis.io/rules/addevent/addevent-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [AddEvent Authentication](https://apis.io/security/addevent/addevent-authentication/)
+- [AddEvent Domain Security](https://apis.io/security/addevent/addevent-domain-security/)
+- [AddEvent Trust Center](https://apis.io/security/addevent/addevent-trust-center/)
+- [AddEvent Vulnerability Disclosure](https://apis.io/security/addevent/addevent-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [AddEvent Plans Pricing](https://apis.io/plans/addevent/addevent-plans-pricing/)
 
 ## Where to find this API
 
@@ -88,8 +155,61 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [GitHub](https://github.com/AddEventinc)
 - [Status](https://addevent.statuspage.io/)
 
-**APIs profiled:** 6
-
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/addevent/](https://apis.io/providers/addevent/).
+**Kin Score 65.2** — strong · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.9 |
+| Contract quality | 65.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 47.6 |
+| Developer ergonomics | 56.5 |
+| Access clarity | 89.4 |
+
+**Agent readiness 26.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/addevent/](https://apis.io/providers/addevent/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AddEvent: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/addevent/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
